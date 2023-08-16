@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Roboto Slab;
+}
+
+body{
+	background-image: url("./images/bg1.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: auto;
+	background-position: center;
+}
+
+nav{
+	background-color: rgba(186, 162, 61);
+}
+
+.dpImg{
+	height: 50vh;
+	width: 50vh;
+	border: 3px solid goldenrod;
+	border-radius: 500px;
+	margin-top: 5rem;
+}
+
+#name{
+	background-color: rgba(207,181,59, 0.7);
+	border-radius: 50px;
+}
+
+#title{
+	background-color: rgba(207,181,59, 0.7);
+	border-radius: 50px;
+}
+
+#aboutMe{
+	background-color: rgba(255, 252, 245, 0.7);
+	border-radius: 50px;
+	margin-left: 50px;
+	width: 30vh;	
+}
+
+#educationEssay{
+	font-size: 20px;
+}
+
+#sablay{
+	width: 50vh;
+	height: auto;
+	border: 5px solid rgb(128,0,0);
+}
+
+#ligayaPic{
+	width: 50rem;
+	height: auto;
+	border: 5px solid powderblue;	
+}
+
+#exercisePic{
+	width: 50vh;
+	height: auto;
+	border: 5px solid seagreen;
+}
+
+#myProjects{
+	background-color: rgba(156, 12, 32, 0.5);
+	height: auto;
+	width: 90vw;
+	margin: auto;
+	margin-bottom: 50px;
+	border-radius: 70px;
+}
+
+#projectTitle{
+	background-color: rgba(255, 252, 245, 0.7);
+	border-radius: 50px;
+	margin-left: 30px;
+	width: 30vh;
+}
+
+.card{
+	width: 25vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#card1{
+	color: whitesmoke;
+	background-color: rgba(3, 3, 2, 0.5);
+	text-align: center;
+	height: 20em;
+}
+
+#card2{
+	color: whitesmoke;
+	background-color: rgba(3, 3, 2, 0.5);
+	text-align: center;
+	height: 20em;
+}
+
+#card3{
+	color: whitesmoke;
+	background-color: rgba(3, 3, 2, 0.5);
+	text-align: center;
+	height: 20em;
+}
+
+#cap1img{
+	border: 3px solid darkkhaki;
+}
+
+#cap2img{
+	border: 3px solid darkcyan;
+}
+
+#cap3img{
+	border: 3px solid darkorange;
+}
+
+#toolsTitle{
+	background-color: rgba(255, 252, 245, 0.7);
+	border-radius: 50px;
+	margin-left: 30px;
+	width: 30vh;
+}
+
+#myTools{
+	background-color: rgba(1,50,32, 0.5);
+	height: auto;
+	margin: auto;
+	margin-bottom: 50px;
+	border-radius: 70px;
+}
+
+.toolImg{
+	width: 6em;
+	height: auto;
+}
+
+#contactTitle{
+	background-color: rgba(255, 252, 245, 0.7);
+	border-radius: 50px;
+	margin-left: 30px;
+	width: 35vh;
+}
+
+#myContact{
+	background-color: rgba(4, 59, 92, 0.5);
+	height: auto;
+	margin: auto;
+	margin-bottom: 50px;
+	border-radius: 70px;
+}
+
+#submitBtn{
+	border: 4px solid black;
+	background-color: rgba(1, 1, 1, 0.5);
+	border-radius: 50px;
+}
+
+#footer{
+	background-color: black;
+	height: auto;
+	width: auto;
+	margin-bottom: 15px;
+}
